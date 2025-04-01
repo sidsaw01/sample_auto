@@ -27,13 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
         option2: ['ETS800 08 H1', 'ETS800 08 H2', 'ETS800 11 H1', 'ETS800 11 H2', 'ETS800 18 H1', 'ETS800 20 H1', 'ETS800 21 H1', 'ETS800 24 H1', 'ETS800 24 H2', 'ETS800 26 H1', 'ETS800 26 H2', 'ETS800 15H1', 'ETS800 15H2']
     };
 
-    // Peripheral options
-    const peripheralOptions = {
-        cat1: ['Option 1A', 'Option 1B', 'Option 1C'],
-        cat2: ['Option 2A', 'Option 2B', 'Option 2C'],
-        cat3: ['Option 3A', 'Option 3B', 'Option 3C']
-    };
-
     // Initialize date restrictions (today to 15 days later)
     // Set today's date as the default value
     //const today = new Date();
