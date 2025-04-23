@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Tester Slot</title>
+    <link rel="stylesheet" href="c2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Booking Time Slot</h2>
+        <div id="step1">
+            <div>
+                <label for="dropdown0">Select Tester:</label>
+                <select id="dropdown0">
+                    <option value="" selected="selected">Tester</option>
+                    <option value="option1">ETS364</option>
+                    <option value="option2">ETS800</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="dropdown1">Workbench:</label>
+                <select id="dropdown1">
+                    <option value="">Select Tester First</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="bookingDate">Select Date:</label>
+                <input type="date" id="bookingDate">
+            </div>
+
+            <div>
+                <label for="timeStart">Select Start Time:</label>
+                <select id="timeStart"></select>
+            </div>
+
+            <div>
+                <label for="timeEnd">Select End Time:</label>
+                <select id="timeEnd"></select>
+            </div>
+
+            <div>
+                <label for="dropdown2">Peripherals:</label>
+                <select id="dropdown2">
+                    <option value="none">No Peripheral required</option>
+                    <option value="cat1">Handler_Talos</option>
+                    <option value="cat2">TFU</option>
+                </select>
+            </div>
+
+            <button id="proceedToStep2">Proceed</button>
+        </div>        
+    </div>
+    <script src="j6.js"></script>
+</body>
+</html>
